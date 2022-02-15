@@ -20,7 +20,7 @@ Below are a few ways to show how to query the Blackbullswap subgraph for data. T
 
 ## Key Entity Overviews
 
-#### BlackbullswapFactory
+#### BlackbullFactory
 
 Contains data across all of Blackbullswap. This entity tracks important things like total liquidity, all time volume, transaction count, number of pairs and more.
 
@@ -48,7 +48,7 @@ This query fetches aggredated data from all Blackbullswap pairs and tokens, to g
 
 ```graphql
 {
-  BlackbullswapFactories(first: 1) {
+  BlackbullFactories(first: 1) {
     pairCount
     totalVolumeUSD
     totalLiquidityUSD
